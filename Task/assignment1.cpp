@@ -1,11 +1,11 @@
 #include <iostream>
 using namespace std;
 
-Q1. define class student with attribute 
-     a.name b.string
-     create an object of the student class and assign values to attributes.
-     print details of the student using cout.
-     upload on the git hub.
+// Q1. define class student with attribute 
+//      a.name b.string
+//      create an object of the student class and assign values to attributes.
+//      print details of the student using cout.
+//      upload on the git hub.
 
 class Student{
     public:
