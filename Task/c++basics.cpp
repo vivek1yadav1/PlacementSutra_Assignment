@@ -15,6 +15,28 @@ using namespace std;
     // }
 
 
+// class student{
+//     public:
+//     string name;
+//     int _class;
+//     int rollno;
+//     void input(){
+//         cout<<"enter ur class = "<<endl;
+//         cin>>_class;
+//         cout<<"enter ur name = "<<endl;
+//         cin>>name;
+//         cout<<"enter ur rollno = "<<endl;
+//         cin>>rollno;
+//     }
+//     void showdetails(){
+//         cout<<"his class is = "<<_class<<endl;
+//         cout<<"his name is = "<<name<<endl;
+//         cout<<"his rollno is = "<<rollno<<endl;
+//     }
+    
+// }     ;  
+
+
 int main(){
     //cout << "lets code"<< endl;
     // int a, b;
@@ -105,24 +127,21 @@ int main(){
 //            cout<<"value at "<<i+1<<" "<<j+1<<" is "<<mat1[i][j]<<endl;
 //     }
 
-     int mat1[3][4] = {
-        {1,2,3,4},
-        {5,6,7,8},
-        {9,10,11,12}
-    };
-    int mat2[3][4] = {
-        {11,12,13,14},
-        {15,16,17,18},
-        {19,110,111,112}
-    };
-    int mat3[3][4];//sum of mat1 + mat2
-    for (int i=0; i<3; i++){
-        for(int j=0; j<4; j++)
-           cout<<"value at "<<i+1<<" "<<j+1<<" of mat3 is "<<mat1[i][j] + mat2[i][j] <<endl;
-    }
-
-
-
+    //  int mat1[3][4] = {
+    //     {1,2,3,4},
+    //     {5,6,7,8},
+    //     {9,10,11,12}
+    // };
+    // int mat2[3][4] = {
+    //     {11,12,13,14},
+    //     {15,16,17,18},
+    //     {19,110,111,112}
+    // };
+    // int mat3[3][4];//sum of mat1 + mat2
+    // for (int i=0; i<3; i++){
+    //     for(int j=0; j<4; j++)
+    //        cout<<"value at "<<i+1<<" "<<j+1<<" of mat3 is "<<mat1[i][j] + mat2[i][j] <<endl;
+    // }
 
 
 
@@ -145,12 +164,36 @@ int main(){
     //        cout<<"value at "<<i+1<<" "<<j+1<<" of mat3 is "<< (mat1[i][j] * mat2[k][l]) + mat1[i][j]*mat2[k][l] +  mat1[i][j]*mat2[k][l] <<endl;
     // }
 
+    //string name = "vivek";
+    //cout<<"the name is "<<name<<endl;
+    // cout<<"the first letter is "<<name[0]<<endl;
+    // cout<<"the second letter is "<<name[1]<<endl;
+    // for(int i=0; i<5; i++){
+    //     cout<<" "<<name[i]<<endl;
+    //     cout<<name.length()<<endl;
+    // }
 
-
+    // cout<<"vivek u r super"<<endl;
     
+    //0020 sujal laptop password brave browser
+    
+    // student viv;
+    // viv.name = "vivek";
+    // viv._10percent = 94;
+    // viv._12percent = 87;
+    // cout<<viv.name<<"'s 10th percent is "<<viv._10percent<<" and 12th percent is "<<viv._12percent<<endl;
 
-
+    // student vivek,akash;
+    // vivek.input();
+    // akash.input();
+    // vivek.showdetails();
 
     return 0;
 }
 
+
+
+
+
+
+   
