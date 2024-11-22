@@ -21,7 +21,7 @@ class Student{
 
 int main(){
    
-    Q1
+    //Q1
     Student Vivek;
     Vivek.input();
     cout<<"student name is "<<Vivek.name<<endl;
